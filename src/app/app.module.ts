@@ -12,6 +12,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CategoryComponent } from './category/category.component';
+import { Category1Component } from './category/category1/category1.component';
+import { Category2Component } from './category/category2/category2.component';
+import { Category3Component } from './category/category3/category3.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     SeiteComponent,
     NotfoundComponent,
-    UserComponent
+    UserComponent,
+    CategoryComponent,
+    Category1Component,
+    Category2Component,
+    Category3Component
   ],
   imports: [
     BrowserModule,
