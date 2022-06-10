@@ -1,0 +1,29 @@
+<p>login works!</p>
+<div class="container">
+  <div class="in">
+    <label for="username">Username :</label>
+    <input
+      #usermodel
+      type="text"
+      id="username"
+      name="username"
+      required
+      minlength="4"
+    />
+  </div>
+
+  <div>
+    <label for="pass">Password :</label>
+    <input
+      #password
+      type="password"
+      id="pass"
+      name="password"
+      required
+      minlength="4"
+    />
+  </div>
+
+  <button name="login" value="login" (click)="click()">Login</button>
+  <p>{{ errorMsg }}</p>
+</div>
